@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+
+.formContainer {
+    flex: 1;
+    max-width: 400px;
+    margin-right: 20px;
+    background-color: #d8d8d8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+
+.tableContainer {
+    flex: 2;
+    background-color: #cfcfcf;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.table th {
+    background-color: darkslateblue;
+    color: white;
+}
+
+.table td {
+    background-color: #f9f9f9;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: darkslateblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #556699;
+}
